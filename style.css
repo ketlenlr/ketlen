@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40;
+    padding: 0;
+    background-color: black;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    
+    
+}
+
+header {
+    color: white;
+    padding: 1rem 0;
+    background-image: url(img/tasty-pepperoni-pizza-cooking-ingredients-260nw-1114907849.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+header .menu1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header .menu1 li {
+    margin: 0 15px;
+}
+
+header .menu1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .menu1 a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.menu {
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background: #d3d3d3;
+    color: black;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210908/pngtree-mottled-wall-texture-abstract-light-gray-background-image_808475.jpg);
+    object-fit: contain;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.pizza-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.column h2 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.extras {
+    margin: 20px;
+    text-align: center;
+    background: #d3d3d3;
+    padding: 40px;
+    color: black;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210908/pngtree-mottled-wall-texture-abstract-light-gray-background-image_808475.jpg);
+    object-fit: contain;
+    background-size: cover
+}
+
+.entradas, .bebidas {
+    margin: 10px 0;
+}
+
+.entradas h1, .bebidas h1 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.bebidas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bebidas li {
+    margin: 5px 0;
+}
+.fooder1 {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.contato{
+    color: white;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .pizza-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
